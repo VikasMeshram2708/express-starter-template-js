@@ -1,0 +1,33 @@
+{
+  "name": "express-starter-template",
+  "version": "1.0.0",
+  "description": "A Basic Express.js starter application.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VikasMeshram2708/express-starter-template-js.git"
+  },
+  "keywords": [
+    "express.js",
+    "nodejs",
+    "express-template"
+  ],
+  "author": "Vikas Meshram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VikasMeshram2708/express-starter-template-js/issues"
+  },
+  "homepage": "https://github.com/VikasMeshram2708/express-starter-template-js#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
